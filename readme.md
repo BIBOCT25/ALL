@@ -3,7 +3,7 @@ https://biboct25.github.io/ALL/
 
 **Основные различия методов:**
 
-```
+---
 | Метод | Что возвращает | Как обращаемся к 4-му полю | Как обращаемся к результату |
 |:------|:--------------|:--------------------------|:---------------------------|
 | getElementById | Один элемент | `getElementById('num4')` | `getElementById('result')` |
@@ -12,7 +12,7 @@ https://biboct25.github.io/ALL/
 | getElementsByTagName | "Живая" коллекция | `getElementsByTagName('input')[3]` | `getElementsByTagName('p')[0]` |
 | querySelector | Один элемент (первый) | `querySelectorAll('.numInput')[3]` | `querySelector('.result')` |
 | querySelectorAll | Статическая коллекция | `querySelectorAll('.numInput')[3]` | `querySelectorAll('.result')[0]` |
-```
+---
 **1. document.getElementById(id)**
 
 ```html
@@ -2506,7 +2506,7 @@ https://biboct25.github.io/ALL/
 ```
 
 **Что сокращено:**
-
+---
 | Было | Стало |
 |:-----|:------|
 | `function() { ... }` | `() => { ... }` |
@@ -2515,7 +2515,7 @@ https://biboct25.github.io/ALL/
 | `if...else` для чётности | Тернарный оператор |
 | `document.getElementById('x').value` внутри обработчика | Переменная объявлена заранее вне обработчика |
 | Многострочный `if` с проверкой | Тернарный оператор в одну строку |
-
+---
 > Все файлы без `onclick`, только `addEventListener` в чистом JS.
 #   A L L 
  
