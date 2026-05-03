@@ -1,7 +1,9 @@
 https://biboct25.github.io/ALL/
 
+
 **Основные различия методов:**
 
+```
 | Метод | Что возвращает | Как обращаемся к 4-му полю | Как обращаемся к результату |
 |:------|:--------------|:--------------------------|:---------------------------|
 | getElementById | Один элемент | `getElementById('num4')` | `getElementById('result')` |
@@ -10,7 +12,7 @@ https://biboct25.github.io/ALL/
 | getElementsByTagName | "Живая" коллекция | `getElementsByTagName('input')[3]` | `getElementsByTagName('p')[0]` |
 | querySelector | Один элемент (первый) | `querySelectorAll('.numInput')[3]` | `querySelector('.result')` |
 | querySelectorAll | Статическая коллекция | `querySelectorAll('.numInput')[3]` | `querySelectorAll('.result')[0]` |
-
+```
 **1. document.getElementById(id)**
 
 ```html
