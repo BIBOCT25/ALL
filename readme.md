@@ -44,6 +44,7 @@ https://biboct25.github.io/ALL/
 
 </body>
 </html>
+```
 2. document.getElementsByName(name)
 
 ```html
