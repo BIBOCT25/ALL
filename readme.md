@@ -1,7 +1,6 @@
 https://biboct25.github.io/ALL/
 
-markdown
-# Основные различия методов
+**Основные различия методов:**
 
 | Метод | Что возвращает | Как обращаемся к 4-му полю | Как обращаемся к результату |
 |:------|:--------------|:--------------------------|:---------------------------|
@@ -12,9 +11,7 @@ markdown
 | querySelector | Один элемент (первый) | `querySelectorAll('.numInput')[3]` | `querySelector('.result')` |
 | querySelectorAll | Статическая коллекция | `querySelectorAll('.numInput')[3]` | `querySelectorAll('.result')[0]` |
 
----
-
-## 1. document.getElementById(id)
+**1. document.getElementById(id)**
 
 ```html
 <!DOCTYPE html>
