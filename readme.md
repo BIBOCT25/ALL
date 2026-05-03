@@ -1,4 +1,4 @@
-https://biboct25.github.io/project1/
+https://biboct25.github.io/ALL/
 
 **Основные различия методов:**
 
@@ -2515,5 +2515,6 @@ https://biboct25.github.io/project1/
 | Многострочный `if` с проверкой | Тернарный оператор в одну строку |
 
 > Все файлы без `onclick`, только `addEventListener` в чистом JS.
-#   A L L  
+#   A L L 
+ 
  
